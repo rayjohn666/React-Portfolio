@@ -1,10 +1,17 @@
-import "./NavbarStyles.css"
+import "./NavbarStyles.css";
 
-import React from 'react'
-import { Link } from "react-router-dom"
+import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+
 
 
 const Navbar =() => {
+
+
+const [click, setClick] = useState(false);
+const handleClick = () => setClick(!click);
+
+
     return (
         <div className="header">
             <Link to="/">
@@ -24,6 +31,7 @@ const Navbar =() => {
                     <Link to ="/contact">Contact</Link>
                 </li>
             </ul>
+            
         </div>
     );
 };

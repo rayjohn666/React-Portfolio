@@ -39,5 +39,13 @@ ul {
 }
 
 .btn-light {
+background: transparent;
+color: white;
+}
 
+.btn:hover {
+  background: rgba(250, 250, 250, 0.
+  2);
+  color: #fff;
+  
 }
