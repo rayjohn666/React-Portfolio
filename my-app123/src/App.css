@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.chakra-ui-light{
+  background-color: black;
+}
