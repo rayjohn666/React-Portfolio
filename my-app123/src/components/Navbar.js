@@ -50,12 +50,11 @@ const handleClick = () => setClick(!click);
 
     <AccordionPanel pb={4}>
     <Stack direction={"column"} color="white">
-                <Link {...LinkStyles} onClick={()=> navigate("/")}>Portfolio</Link>
                 <Link {...LinkStyles} onClick={()=> navigate("/")}>Home</Link>
                 <Link {...LinkStyles} onClick={()=> navigate("/projects")}>Projects</Link>
                 <Link {...LinkStyles} onClick={()=> navigate("/about")}>About</Link>
                 <Link  {...LinkStyles} onClick={()=> navigate("/contact")}>Contact</Link>
-             {/* <Something dog={"value1"}/> example for testing consts  */}
+                <Link {...LinkStyles} onClick={()=> navigate("/")}>Resume</Link>
             </Stack>
     </AccordionPanel>
   </AccordionItem>
