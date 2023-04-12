@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Heading, Box, FormControl, FormLabel, Input, Textarea, Button, FormErrorMessage } from '@chakra-ui/react';
 import Navbar from '../components/Navbar';
+import Footer from "../components/Footer";
 
 function ContactForm() {
   const [name, setName] = useState('');
@@ -23,6 +24,18 @@ function ContactForm() {
     } else {
       // submit the form
       console.log('Form submitted:', { name, email, message });
+
+
+          // save to state
+    setName('');
+    setEmail('');
+    setMessage('');
+
+    // save to session storage
+    sessionStorage.setItem('name', name);
+    sessionStorage.setItem('email', email);
+    sessionStorage.setItem('message', message);
+    
     }
   };
 
@@ -41,13 +54,13 @@ function ContactForm() {
   };
 
   return (
-    <Box fontFamily={"times new roman"}>
-          <Navbar/>
+  <>  <Box fontFamily={"times new roman"}>
+          <Navbar color="white"/>
       <Heading fontFamily={"times new roman"} color="white">Contact</Heading>
       <form onSubmit={handleSubmit}>
         <FormControl isInvalid={nameError}>
           <FormLabel color="white" htmlFor="name">Name:</FormLabel>
-          <Input color="white" type="text" id="name" value={name} onChange={handleNameChange} />
+          <Input  width =" 200px" color="white" type="text" id="name" value={name} onChange={handleNameChange} />
           <FormErrorMessage>Name is required</FormErrorMessage>
         </FormControl>
         <FormControl isInvalid={emailError}>
@@ -62,6 +75,7 @@ function ContactForm() {
         <Button type="submit" mt={4}>Submit</Button>
       </form>
     </Box>
+   <Footer/> </>
   );
 }
 

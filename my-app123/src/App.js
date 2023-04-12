@@ -4,8 +4,9 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Projects from "./routes/Projects";
 import Contact from "./routes/Contact";
+import Resume from "./routes/Resume"
 
-import { Route, Routes, NavLink, RouterProvider, createBrowserRouter } from "react-router-dom";
+import {  NavLink, RouterProvider, createBrowserRouter } from "react-router-dom";
 
 
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />
+  },
+  {
+    path: "/resume",
+    element: <Resume />
   }
   ]);
 

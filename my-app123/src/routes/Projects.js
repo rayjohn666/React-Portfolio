@@ -1,32 +1,32 @@
 import React from "react";
 import {Box, Image, Stack,Heading} from "@chakra-ui/react"
 import Navbar from "../components/Navbar";
-
+import Footer from "../components/Footer";
 
 const Projects = () => {
 
     const portfolioData = [{
         title: "Tech-Blog",
-        img: "my-app123/src/images/Screenshot 2023-04-09 at 9.12.18 PM.png",
+        img: "./images/techblog.png",
         url: "https://tech-blog123666.herokuapp.com/"
     },{
         title: "Boundless Bites",
-        img: "h/Users/haydendillon-lloyd/Desktop/Projects/React-Portfolio/React-Portfolio/my-app123/src/images/Screenshot 2023-04-09 at 9.15.26 PM.png",
+        img: "./images/Boundless-Bites.png",
         url: "https://github.com/rayjohn666/BoundlessBites.git"
     },{
         title: "What to Watch",
-        img: "my-app123/src/images/Screenshot 2023-04-09 at 9.59.34 PM.png",
+        img: "./images/What-to-Watch.png",
         url: "#"
     },{
         title: "Team Profile Generator",
-        img: "my-app123/src/images/Screenshot 2023-04-09 at 10.04.04 PM.png",
-        url: "#"
+        img: "./images/Team-Profile-Generator.png",
+        url: "#https://github.com/rayjohn666/Team-Profile-Generator.git"
     },{
         title: "Employee Tracker",
-        img: "https://place-hold.it/200",
-        url: "#"
+        img: "./images/Employee-Tracker.png",
+        url: "https://github.com/rayjohn666/employee_tracker123.git"
     },{
-        title: "blog",
+        title: "E-commerce",
         img: "https://place-hold.it/200",
         url: "#"
     }]
@@ -42,8 +42,8 @@ const Projects = () => {
         border: "solid 1px white"
     }
 
-    return <Box fontFamily="times new roman"color="white" p="20px">
-        <Navbar/>
+    return <><Box fontFamily="times new roman"color="white" p="20px">
+       <Navbar/>
         <Heading fontFamily={"Times New Roman"} mb="30px"> My Portfolio</Heading>
         <Box maxW="900px" margin={"0 auto"}>
         <Box display={"flex"} flexDirection={["column","column","row"]} flexWrap={"wrap"} 
@@ -55,7 +55,7 @@ const Projects = () => {
             }} 
             {...boxStyles}
             >
-                <Heading as="h2">{p.title}</Heading>
+                <Heading fontFamily={"Times New Roman"} as="h2">{p.title}</Heading>
                 <Image src={p.img}/>
             </Box>
            }) 
@@ -63,7 +63,8 @@ const Projects = () => {
         }
         </Box>
         </Box>
-    </Box>;
+    </Box>
+    <Footer/></>;
 };
 
 export default Projects;
