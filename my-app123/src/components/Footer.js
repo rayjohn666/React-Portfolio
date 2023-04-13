@@ -10,6 +10,9 @@ function Footer() {
         <Link href="https://www.linkedin.com/in/hayden-dillon-lloyd-64266a255/" color="white" mr={4}>
           LinkedIn
         </Link>
+        <Link href="https://docs.google.com/document/d/e/2PACX-1vQoEVmCgFhZwX2j5cgHa4qekdnmdhBCj-nm-27WyGynKpoq2BCoOyLlxiH6pTLZHGUazEfafnPzOMla/pub" color="white" mr={4}>
+          Resume
+        </Link>
         <Link href="https://github.com/rayjohn666" color="white">
           GitHub
         </Link>

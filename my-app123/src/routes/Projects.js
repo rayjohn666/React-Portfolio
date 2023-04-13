@@ -28,7 +28,7 @@ const Projects = () => {
     },{
         title: "E-commerce",
         img: "https://place-hold.it/200",
-        url: "#"
+        url: "https://github.com/rayjohn666/E-commerce-back-end.git"
     }]
 
     const boxStyles = {

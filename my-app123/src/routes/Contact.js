@@ -58,20 +58,24 @@ function ContactForm() {
           <Navbar color="white"/>
       <Heading fontFamily={"times new roman"} color="white">Contact</Heading>
       <form onSubmit={handleSubmit}>
-        <FormControl isInvalid={nameError}>
-          <FormLabel color="white" htmlFor="name">Name:</FormLabel>
-          <Input  width =" 200px" color="white" type="text" id="name" value={name} onChange={handleNameChange} />
+        <FormControl padding="10px" isInvalid={nameError}>
+          <FormLabel display="left"  color="white" htmlFor="name">Name:</FormLabel>
+          <Input   width =" 200px" color="white" type="text" id="name" value={name} onChange={handleNameChange} />
+
           <FormErrorMessage>Name is required</FormErrorMessage>
         </FormControl>
-        <FormControl isInvalid={emailError}>
-          <FormLabel color="white" htmlFor="email">Email:</FormLabel>
-          <Input color="white" type="email" id="email" value={email} onChange={handleEmailChange} />
+        <FormControl padding="10px" isInvalid={emailError}>
+          <FormLabel display="left"  color="white" htmlFor="email">Email:</FormLabel>
+          <Input   width =" 200px" color="white" type="email" id="email" value={email} onChange={handleEmailChange} />
+
           <FormErrorMessage>Invalid email address</FormErrorMessage>
         </FormControl>
-        <FormControl>
-          <FormLabel color="white" htmlFor="message">Message:</FormLabel>
-          <Textarea color="white" id="message" value={message} onChange={handleMessageChange} />
+
+        <FormControl padding="10px">
+          <FormLabel display="left" color="white" htmlFor="message">Message:</FormLabel>
+          <Textarea  width =" 200px" color="white" id="message" value={message} onChange={handleMessageChange} />
         </FormControl>
+
         <Button type="submit" mt={4}>Submit</Button>
       </form>
     </Box>

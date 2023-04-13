@@ -1,3 +1,4 @@
+import React from "react";
 import { Box, Heading, Link, Text } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -15,9 +16,9 @@ function Resume() {
         </Link>
         
       </Text>
-    </Box><Footer/></>
+    </Box><Footer/>hello</>
     
   );
-}
+};
 
 export default Resume;
