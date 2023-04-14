@@ -41,6 +41,18 @@ Github:
 
 * rayjohn666
 
+
+
+## Image of application
+
+
+  <img
+  src="src/components/images/PageExampleForReadme.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
 ## Interests
 👩‍💻 I'm currently working on...
 Building a database for storing physical music collections, such as vinyl, cds, tapes.
