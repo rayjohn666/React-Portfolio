@@ -7,23 +7,23 @@ const Projects = () => {
 
     const portfolioData = [{
         title: "Tech-Blog",
-        img: "./images/techblog.png",
+        img: "../../images/techblog.png",
         url: "https://tech-blog123666.herokuapp.com/"
     },{
         title: "Boundless Bites",
-        img: "./images/Boundless-Bites.png",
+        img: "../../images/Boundless-Bites.png",
         url: "https://github.com/rayjohn666/BoundlessBites.git"
     },{
         title: "What to Watch",
-        img: "./images/What-to-Watch.png",
+        img: "../../images/What-to-Watch.png",
         url: "#"
     },{
         title: "Team Profile Generator",
-        img: "./images/Team-Profile-Generator.png",
+        img: "../../images/Team-Profile-Generator.png",
         url: "#https://github.com/rayjohn666/Team-Profile-Generator.git"
     },{
         title: "Employee Tracker",
-        img: "./images/Employee-Tracker.png",
+        img: "../../images/Employee-Tracker.png",
         url: "https://github.com/rayjohn666/employee_tracker123.git"
     },{
         title: "E-commerce",

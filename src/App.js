@@ -15,7 +15,7 @@ import {  RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-gh-pages",
     element: <Home />
   },
   {
@@ -42,6 +42,7 @@ function App() {
   const [activeSection, setActiveSection] = useState('about');
 
   return (
+    
     <div className="App">
         <RouterProvider router={router} />
         <p> test 1 {activeSection}</p>
