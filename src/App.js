@@ -45,8 +45,8 @@ function App() {
     
     <div className="App">
         <RouterProvider router={router} />
-        <p> test 1 {activeSection}</p>
-        <p>  test 2 {setActiveSection}</p>
+        <p> {Home} {activeSection}</p>
+        <p> {Resume} {setActiveSection}</p>
     </div>
   );
 };
