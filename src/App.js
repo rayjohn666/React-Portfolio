@@ -6,7 +6,7 @@ import Projects from "./routes/Projects";
 import Contact from "./routes/Contact";
 import Resume from "./routes/Resume"
 
-import {  NavLink, RouterProvider, createBrowserRouter } from "react-router-dom";
+import {  RouterProvider, createBrowserRouter } from "react-router-dom";
 
 
 
@@ -44,6 +44,8 @@ function App() {
   return (
     <div className="App">
         <RouterProvider router={router} />
+        <p> test 1 {activeSection}</p>
+        <p>  test 2 {setActiveSection}</p>
     </div>
   );
 };

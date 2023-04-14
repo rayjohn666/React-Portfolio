@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 import Footer from "../components/Footer";
-import Card from "../components/Card";
+
 import { Image, Box, Heading } from "@chakra-ui/react";
 
 const Home = () => {

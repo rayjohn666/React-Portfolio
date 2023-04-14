@@ -3,14 +3,13 @@ import "./NavbarStyles.css";
 
 import React, { useState } from 'react';
 //import { Link } from "react-router-dom";
-import {Stack, Link, Box, Button, Popover} from '@chakra-ui/react';
+import {Stack, Link, Box, Popover} from '@chakra-ui/react';
 import { useNavigate } from "react-router-dom";
 import {
     Accordion,
     AccordionItem,
     AccordionButton,
     AccordionPanel,
-    AccordionIcon,
   } from '@chakra-ui/react'
 
 
@@ -27,6 +26,7 @@ const Navbar =() => {
     
 
 const [click, setClick] = useState(false);
+// eslint-disable-next-line no-unused-vars
 const handleClick = () => setClick(!click);
 
 
