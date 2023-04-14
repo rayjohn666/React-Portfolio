@@ -22,7 +22,8 @@ Install my-project with npm
 ```
     
 ## 🔗 Links
-### Contributing:
+
+
 
 
 
@@ -49,3 +50,11 @@ Learning react and building as many different applications as possible with it.
 👯‍♀️ I'm looking to collaborate on...
 
 
+### Contributing:
+Art S.
+
+Lawrence H.    -- Wyzant Tutors
+
+Hayden Dillon-Lloyd - Author
+
+React Documentation
