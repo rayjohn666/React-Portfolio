@@ -15,7 +15,7 @@ import {  RouterProvider, createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/react-gh-pages",
+    path: "/",
     element: <Home />
   },
   {

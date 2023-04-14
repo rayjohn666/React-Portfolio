@@ -2,32 +2,38 @@ import React from "react";
 import {Box, Image, Heading} from "@chakra-ui/react"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import projectOne from "../components/images/techblog.png"
+import projectTwo from "../components/images/Boundless-Bites.png"
+import projectThree from "../components/images/What-to-Watch.png"
+import projectFour from "../components/images/Team-Profile-Generator.png"
+import projectFive from "../components/images/Employee-Tracker.png"
+import projectSix from "../components/images/E-commerce123.png"
 
 const Projects = () => {
 
     const portfolioData = [{
         title: "Tech-Blog",
-        img: "../../images/techblog.png",
+        img: projectOne,
         url: "https://tech-blog123666.herokuapp.com/"
     },{
         title: "Boundless Bites",
-        img: "../../images/Boundless-Bites.png",
+        img: projectTwo,
         url: "https://github.com/rayjohn666/BoundlessBites.git"
     },{
         title: "What to Watch",
-        img: "../../images/What-to-Watch.png",
+        img: projectThree,
         url: "#"
     },{
         title: "Team Profile Generator",
-        img: "../../images/Team-Profile-Generator.png",
+        img: projectFour,
         url: "#https://github.com/rayjohn666/Team-Profile-Generator.git"
     },{
         title: "Employee Tracker",
-        img: "../../images/Employee-Tracker.png",
+        img: projectFive,
         url: "https://github.com/rayjohn666/employee_tracker123.git"
     },{
         title: "E-commerce",
-        img: "https://place-hold.it/200",
+        img: projectSix,
         url: "https://github.com/rayjohn666/E-commerce-back-end.git"
     }]
 

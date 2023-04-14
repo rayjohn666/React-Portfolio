@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 import Footer from "../components/Footer";
-
+import ProfilePic from "../components/images/Personal-pic.png"
 import { Image, Box, Heading } from "@chakra-ui/react";
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         </header>
 
         <Box fontFamily={"times new roman"} boxSize="sm">
-          <Image src="./images/Personal-pic.png" alt="Dan Abramov" />
+         <Image src={ProfilePic} alt="Dan Abramov" />
         </Box>
       </Box>
       
