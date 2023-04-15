@@ -48,7 +48,7 @@ const Projects = () => {
         border: "solid 1px white"
     }
 
-    return <><Box fontFamily="times new roman"color="white" p="20px">
+    return (<><Box fontFamily="times new roman"color="white" p="20px">
        <Navbar/>
         <Heading fontFamily={"Times New Roman"} mb="30px" display="flex: block"
           justifyContent="center"
@@ -64,7 +64,7 @@ const Projects = () => {
         gap={["30px","30px","10px"]}>
         {
            portfolioData.map(p => {
-            return <Box onClick={()=>{
+            return <Box key={p.url} onClick={()=>{
                 window.location = p.url
             }} 
             {...boxStyles}
@@ -78,7 +78,7 @@ const Projects = () => {
         </Box>
         </Box>
     </Box>
-    <Footer/></>;
+    <Footer/></>);
 };
 
 export default Projects;
