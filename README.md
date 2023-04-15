@@ -63,9 +63,9 @@ Learning react and building as many different applications as possible with it.
 
 
 ### Contributing:
-Art S.
+Art S. -- Wyzant Tutor
 
-Lawrence H.    -- Wyzant Tutors
+Lawrence H.    -- Wyzant Tutor
 
 Hayden Dillon-Lloyd - Author
 
