@@ -16,7 +16,7 @@ function Resume() {
         </Link>
         
       </Text>
-    </Box><Footer/>hello</>
+    </Box><Footer/></>
     
   );
 };

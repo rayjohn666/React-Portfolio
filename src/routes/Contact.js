@@ -56,7 +56,15 @@ function ContactForm() {
   return (
   <>  <Box fontFamily={"times new roman"}>
           <Navbar color="white"/>
-      <Heading fontFamily={"times new roman"} color="white">Contact</Heading>
+      <Heading fontFamily={"times new roman"} display="flex: block"
+          justifyContent="center"
+          width="225px"
+          p={8}
+          bg="rgba(255, 255, 255, 0.8)"
+          borderRadius="md"
+          boxShadow="md"
+          mx="auto" // add mx property to center horizontally
+          mb={4}>Contact</Heading>
       <form onSubmit={handleSubmit}>
         <FormControl padding="10px" isInvalid={nameError}>
           <FormLabel display="left"  color="white" htmlFor="name">Name:</FormLabel>

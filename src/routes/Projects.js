@@ -50,7 +50,15 @@ const Projects = () => {
 
     return <><Box fontFamily="times new roman"color="white" p="20px">
        <Navbar/>
-        <Heading fontFamily={"Times New Roman"} mb="30px"> My Portfolio</Heading>
+        <Heading fontFamily={"Times New Roman"} mb="30px" display="flex: block"
+          justifyContent="center"
+          width="400px"
+          p={8}
+          bg="rgba(255, 255, 255, 0.8)"
+          borderRadius="md"
+          boxShadow="md"
+          mx="auto" // add mx property to center horizontally
+          color="black"> My Portfolio</Heading>
         <Box maxW="900px" margin={"0 auto"}>
         <Box display={"flex"} flexDirection={["column","column","row"]} flexWrap={"wrap"} 
         gap={["30px","30px","10px"]}>

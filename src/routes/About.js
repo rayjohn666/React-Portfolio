@@ -8,7 +8,17 @@ function About() {
     <>
       <Navbar />
       <Box bg="black" color="white" p={4}>
-        <Heading as="h1" textAlign="center" fontFamily="Times New Roman" mb={4}>
+        <Heading as="h1" textAlign="center" fontFamily="Times New Roman"
+          display="flex: block"
+          justifyContent="center"
+          width="400px"
+          p={8}
+          bg="rgba(255, 255, 255, 0.8)"
+          borderRadius="md"
+          boxShadow="md"
+          mx="auto" // add mx property to center horizontally
+          mb={4}
+          color="black">
           About Me
         </Heading>
         <Box

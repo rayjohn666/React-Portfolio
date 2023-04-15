@@ -27,19 +27,19 @@ Install my-project with npm
 
 
 
-* Email me at dillonlloyd123@gmail.com
-
-Email: 
+* Email me at <a href="dillonlloyd123@gmail.com">dillonlloyd123@gmail.com</a>
 
 
 
-* dillonlloyd123@gmail.com
+
+
+
 
 Github: 
 
 
 
-* rayjohn666
+* <a href="github.com/rayjohn666">http://github.com/rayjohn666</a>
 
 
 

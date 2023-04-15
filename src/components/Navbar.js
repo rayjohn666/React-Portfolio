@@ -37,7 +37,7 @@ const handleClick = () => setClick(!click);
                 <Link onClick={()=> navigate("/projects")}>Projects</Link>
                 <Link onClick={()=> navigate("/about")}>About</Link>
                 <Link onClick={()=> navigate("/contact")}>Contact</Link>
-                <Link onClick={()=> navigate("/")}>Resume</Link>
+                <Link onClick={()=> navigate("/resume")}>Resume</Link>
                 
 
     </Stack>

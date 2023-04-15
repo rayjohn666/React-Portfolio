@@ -10,13 +10,21 @@ const Home = () => {
       <> <Box fontFamily={"times new roman"} >
         <Navbar fontFamily={"times new roman"} />
         <header>
-          <Heading color={"white"} fontFamily={"Times New Roman"}>
+          <Heading display="flex: block"
+          justifyContent="center"
+          width="400px"
+          p={8}
+          bg="rgba(255, 255, 255, 0.8)"
+          borderRadius="md"
+          boxShadow="md"
+          mx="auto" // add mx property to center horizontally
+          mb={4} color={"Black"} fontFamily={"Times New Roman"}>
             Hayden Dillon-Lloyd
           </Heading>
         </header>
 
-        <Box fontFamily={"times new roman"} boxSize="sm">
-         <Image src={ProfilePic} alt="Dan Abramov" />
+        <Box display="flex" justifyContent="center" alignItems="center" height="100vh">
+         <Image src={ProfilePic} alt="Hayden's Portfolio Pic" />
         </Box>
       </Box>
       

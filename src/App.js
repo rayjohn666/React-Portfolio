@@ -39,14 +39,14 @@ const router = createBrowserRouter([
 
 
 function App() {
-  const [activeSection, setActiveSection] = useState('about');
+  const [activeSection, setActiveSection] = useState();
 
   return (
     
     <div className="App">
         <RouterProvider router={router} />
-        <p> {Home} {activeSection}</p>
-        <p> {Resume} {setActiveSection}</p>
+        <p> {} {activeSection}</p>
+        <p> {} {setActiveSection}</p>
     </div>
   );
 };
