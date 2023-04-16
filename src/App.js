@@ -7,7 +7,7 @@ import Contact from "./routes/Contact";
 import Resume from "./routes/Resume"
 
 
-import {   BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {   HashRouter as Router, Routes, Route } from "react-router-dom";
 
 
 
