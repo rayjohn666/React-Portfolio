@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.7c0b4267.css",
-    "main.js": "./static/js/main.a30a20c0.js",
-    "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
-    "static/media/E-commerce123.png": "./static/media/E-commerce123.2f12e266d9e07e85e454.png",
-    "static/media/What-to-Watch.png": "./static/media/What-to-Watch.9277789a6b960d552f0e.png",
-    "static/media/Boundless-Bites.png": "./static/media/Boundless-Bites.222b0173e8c25b001168.png",
-    "static/media/Personal-pic.png": "./static/media/Personal-pic.96905f36ce93523b278a.png",
-    "static/media/techblog.png": "./static/media/techblog.d94e7a0ffa1bb3bd16e7.png",
-    "static/media/Employee-Tracker.png": "./static/media/Employee-Tracker.b87073b5275e9b011f68.png",
-    "static/media/Team-Profile-Generator.png": "./static/media/Team-Profile-Generator.5ee74c9ad9da7c19c02e.png",
-    "index.html": "./index.html",
-    "main.7c0b4267.css.map": "./static/css/main.7c0b4267.css.map",
-    "main.a30a20c0.js.map": "./static/js/main.a30a20c0.js.map",
-    "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "./https://rayjohn666.github.io/React-Portfolio/static/css/main.7c0b4267.css",
+    "main.js": "./https://rayjohn666.github.io/React-Portfolio/static/js/main.27186908.js",
+    "static/js/787.28cb0dcd.chunk.js": "./https://rayjohn666.github.io/React-Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/E-commerce123.png": "./https://rayjohn666.github.io/React-Portfolio/static/media/E-commerce123.2f12e266d9e07e85e454.png",
+    "static/media/What-to-Watch.png": "./https://rayjohn666.github.io/React-Portfolio/static/media/What-to-Watch.9277789a6b960d552f0e.png",
+    "static/media/Boundless-Bites.png": "./https://rayjohn666.github.io/React-Portfolio/static/media/Boundless-Bites.222b0173e8c25b001168.png",
+    "static/media/Personal-pic.png": "./https://rayjohn666.github.io/React-Portfolio/static/media/Personal-pic.96905f36ce93523b278a.png",
+    "static/media/techblog.png": "./https://rayjohn666.github.io/React-Portfolio/static/media/techblog.d94e7a0ffa1bb3bd16e7.png",
+    "static/media/Employee-Tracker.png": "./https://rayjohn666.github.io/React-Portfolio/static/media/Employee-Tracker.b87073b5275e9b011f68.png",
+    "static/media/Team-Profile-Generator.png": "./https://rayjohn666.github.io/React-Portfolio/static/media/Team-Profile-Generator.5ee74c9ad9da7c19c02e.png",
+    "index.html": "./https://rayjohn666.github.io/React-Portfolio/index.html",
+    "main.7c0b4267.css.map": "./https://rayjohn666.github.io/React-Portfolio/static/css/main.7c0b4267.css.map",
+    "main.27186908.js.map": "./https://rayjohn666.github.io/React-Portfolio/static/js/main.27186908.js.map",
+    "787.28cb0dcd.chunk.js.map": "./https://rayjohn666.github.io/React-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c0b4267.css",
-    "static/js/main.a30a20c0.js"
+    "static/js/main.27186908.js"
   ]
 }
