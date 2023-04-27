@@ -24,7 +24,7 @@ const Home = () => {
         </header>
 
         <Box display="flex" justifyContent="center" alignItems="center" height="100vh">
-         <Image src={ProfilePic} alt="Hayden's Portfolio Pic" />
+        <Image src={ProfilePic} alt="Hayden's Portfolio Pic" />
         </Box>
       </Box>
       

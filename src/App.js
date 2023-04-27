@@ -9,36 +9,6 @@ import Resume from "./routes/Resume"
 
 import {   HashRouter as Router, Routes, Route } from "react-router-dom";
 
-
-
-
-
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Home />
-//   },
-//   {
-//     path: "/projects",
-//     element: <Projects />
-//   },
-//   {
-//     path: "/contact",
-//     element: <Contact />
-//   },
-//   {
-//     path: "/about",
-//     element: <About />
-//   },
-//   {
-//     path: "/resume",
-//     element: <Resume />
-//   }
-//   ]);
-
-
-
 function App() {
 
   return (
