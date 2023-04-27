@@ -24,7 +24,7 @@ const Projects = () => {
     {
     title: "What to Watch",
     img: projectThree,
-    url: "#",
+    url: "https://ianm1837.github.io/what-to-watch/",
     },
     {
     title: "Team Profile Generator",
