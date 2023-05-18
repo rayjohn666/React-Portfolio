@@ -5,7 +5,8 @@ import Footer from "../components/Footer";
 
 function Resume() {
   return (
-  <><Navbar/> <Box bg="black" color="white" p={4}>
+  <><Navbar fontFamily={"times new roman"} /> 
+     <Box bg="black" color="white" p={4}>
       <Heading color="white" as="h1" textAlign="center" mb={4}>
         
       </Heading>
