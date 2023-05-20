@@ -23,8 +23,8 @@ const Home = () => {
           </Heading>
         </header>
 
-        <Box display="flex" justifyContent="center" alignItems="center" height="100vh">
-        <Image src={ProfilePic} alt="Hayden's Portfolio Pic" />
+        <Box display="inline-flex" justifyContent="" alignItems="center"  height="400px" width="400px">
+        <Image src={ProfilePic} alt="Hayden's Portfolio Pic"  />
         </Box>
       </Box>
       
