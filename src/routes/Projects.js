@@ -37,9 +37,9 @@ const Projects = () => {
     url: "https://github.com/rayjohn666/employee_tracker123.git",
     },
     {
-    title: "E-commerce",
+    title: "Portfolio",
     img: projectSix,
-    url: "https://github.com/rayjohn666/E-commerce-back-end.git",
+    url: "https://github.com/rayjohn666/wags-to-riches",
     },
 ];
 
